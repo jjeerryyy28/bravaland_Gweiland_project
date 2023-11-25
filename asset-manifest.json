@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/bravaland_Gweiland_project/static/css/main.e476ec54.css",
+    "main.js": "/bravaland_Gweiland_project/static/js/main.321a7d51.js",
+    "static/js/787.b996cc7d.chunk.js": "/bravaland_Gweiland_project/static/js/787.b996cc7d.chunk.js",
+    "static/media/slide2.png": "/bravaland_Gweiland_project/static/media/slide2.7ad097241e5320476299.png",
+    "static/media/slide5.png": "/bravaland_Gweiland_project/static/media/slide5.65f6666be566dc2752b9.png",
+    "static/media/slide3.png": "/bravaland_Gweiland_project/static/media/slide3.079e630e7b874e766ed3.png",
+    "static/media/slide4.png": "/bravaland_Gweiland_project/static/media/slide4.f8559bd0e55f5b132518.png",
+    "static/media/slide1.png": "/bravaland_Gweiland_project/static/media/slide1.c13fb0abfb46e32e7aad.png",
+    "static/media/b_img5.png": "/bravaland_Gweiland_project/static/media/b_img5.3deea67456eaa29270ec.png",
+    "static/media/logo.png": "/bravaland_Gweiland_project/static/media/logo.6674aa2ce6426086a339.png",
+    "static/media/b_img2.png": "/bravaland_Gweiland_project/static/media/b_img2.020663816daeccc201db.png",
+    "static/media/b_img3.png": "/bravaland_Gweiland_project/static/media/b_img3.a8cdc26666d96722e54b.png",
+    "static/media/b_img4.png": "/bravaland_Gweiland_project/static/media/b_img4.3b68f25f30cea0b45e3d.png",
+    "static/media/b_img1.png": "/bravaland_Gweiland_project/static/media/b_img1.4dd9fc62b34f3066271a.png",
+    "static/media/b_img6.png": "/bravaland_Gweiland_project/static/media/b_img6.f966f8ebe186728bc193.png",
+    "static/media/logo.svg": "/bravaland_Gweiland_project/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/bravaland_Gweiland_project/index.html",
+    "main.e476ec54.css.map": "/bravaland_Gweiland_project/static/css/main.e476ec54.css.map",
+    "main.321a7d51.js.map": "/bravaland_Gweiland_project/static/js/main.321a7d51.js.map",
+    "787.b996cc7d.chunk.js.map": "/bravaland_Gweiland_project/static/js/787.b996cc7d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e476ec54.css",
+    "static/js/main.321a7d51.js"
+  ]
+}
