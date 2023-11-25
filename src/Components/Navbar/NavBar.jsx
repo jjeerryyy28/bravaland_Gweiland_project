@@ -1,4 +1,3 @@
-// App.js
 import React from 'react';
 import './nav.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

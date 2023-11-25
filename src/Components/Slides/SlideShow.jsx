@@ -1,4 +1,3 @@
-// Slideshow.js
 import React, { useState, useEffect } from 'react';
 import './Slideshow.css';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
