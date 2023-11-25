@@ -1,0 +1,217 @@
+body, html {
+    font-family: "Qualy", sans-serif;
+  }
+
+/* nav bar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #212122;
+    height: 80px;
+}
+
+/* Left Section */
+.navbar .navbar-left {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vw;
+    color: #ffffff;
+    align-items: center;
+    padding: 2px;
+    margin-left: -26px;
+}
+
+.navbar .navbar-left .brand-dropdown {
+    margin-left: 15px;
+}
+
+/* Dropdown Styles */
+.dropdown-item {
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    text-align: left;
+}
+
+.dropdown-item::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e1c200;
+    transition: width 0.5s ease;
+}
+
+.dropdown-item:hover::before {
+    width: 100%;
+}
+
+.navbar .navbar-left .dropdown-content {
+    padding: 20px;
+    display: none;
+    position: absolute;
+    background-color: #555;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 8px;
+}
+
+.navbar .navbar-left .brand-dropdown .dropdown-content .dropdown-item{
+    width: fit-content;
+    cursor: pointer;
+}
+
+.navbar .navbar-left .shop-dropdown .dropdown-content .dropdown-item{
+    width: fit-content;
+    cursor: pointer;
+}
+
+/* Navbar Left Hover Styles */
+.navbar .navbar-left .brand-dropdown:hover .dropdown-content,
+.navbar .navbar-left .shop-dropdown:hover .dropdown-content,
+.navbar .navbar-left .premium-dropdown:hover .dropdown-content,
+.navbar .navbar-left .gift-cards-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav-item {
+    margin: 0 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav-item::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e1c200;
+    transition: width 0.5s ease;
+}
+
+.nav-item:hover::before {
+    width: 100%;
+}
+
+.navbar .navbar-left .premium,
+.navbar .navbar-left .gift-cards {
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar .navbar-left .premium::before,
+.navbar .navbar-left .gift-cards::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e1c200;
+    transition: width 0.5s ease;
+}
+
+.navbar .navbar-left .premium:hover::before,
+.navbar .navbar-left .gift-cards:hover::before {
+    width: 100%;
+}
+
+/* Center Section */
+.navbar-center {
+    display: flex;
+    align-items: center;
+}
+
+/* Right Section */
+.navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40vw;
+    color: #ffffff;
+    margin-left: 90px;
+}
+
+/* General Dropdown Styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #555;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 8px;
+}
+
+/* Specific Dropdown Styles */
+.shop-dropdown .dropdown-content,
+.premium-dropdown .dropdown-content,
+.gift-cards-dropdown .dropdown-content {
+    width: 100vw;
+    margin-left: -199px;
+}
+
+/* Flex Styles */
+.flex {
+    display: flex;
+}
+
+.flex h2 {
+    text-align: left;
+    margin-left: 6px;
+    position: relative;
+    overflow: hidden;
+    width: fit-content;
+}
+
+.column h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e1c200;
+    transition: width 0.5s ease;
+}
+
+.column h2:hover::before {
+    width: 100%;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+/* Logo Styles */
+.logo {
+    margin-left: 70px;
+    margin-top: 10px;
+    cursor: pointer;
+    /* border: 2px solid red; */
+    width: fit-content;
+}
+
+.logo img {
+    width: 120px;
+    height: 60px;
+}
+
+/* Navbar Icons Styles */
+.navbar-icons {
+    gap: 24px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.navbar-icons .icon:hover {
+    color: #e1c200;
+    cursor: pointer;
+}

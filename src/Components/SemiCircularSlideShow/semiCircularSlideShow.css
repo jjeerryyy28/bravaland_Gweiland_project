@@ -1,0 +1,58 @@
+.brand-card-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider-cont {
+    display: flex;
+    animation: slideAnimation 20s linear infinite;
+  }
+  
+  @keyframes slideAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .brand-card {
+    padding: 0 15px;
+    position: relative;
+    min-width: 320px;
+    max-width: 330px;
+    height: 150px;
+    margin-left: 60px;
+    border-radius: 40px 8px 8px 40px;
+  }
+  
+  .brand-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: -35px;
+  }
+  
+  .brand-card h4 {
+    text-align: right;
+    margin: 1.5rem 0.5rem 0 6rem;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Qualy", sans-serif;
+    font-size: 28px;
+  }
+  
+  .brand-card a {
+    float: right;
+    color: #fff;
+    position: absolute;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    text-decoration: underline;
+    font-size: 1.1rem;
+  }
+  
